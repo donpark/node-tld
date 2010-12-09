@@ -1,5 +1,9 @@
 # node-tld #
 
+## Installation ##
+
+    npm install tld
+
 ## Usage ##
 
 ### Get registered domain name ###
