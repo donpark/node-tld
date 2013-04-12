@@ -5,13 +5,13 @@
   "homepage": "https://github.com/donpark/node-tld",
   "author": "Don Park <donpark@docuverse.com> (http://blog.docuverse.com)",
   "keywords": [ "tld" ],
-  "license": "MPL2.0",
+  "license": "MPL2",
   "main": "lib/tld.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/donpark/node-tld.git"
   },
   "engines": {
-    "node": ">= 0.2.0"
+    "node": ">= 0.4.0"
   }
 }
