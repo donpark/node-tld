@@ -40,3 +40,15 @@ or load explicitly at anytime to switch/update TLD data:
     tld.load('.../some/other/path/...');
     // first call triggers loads from above path
     tld.registered('foo.bar.com');
+
+## License ##
+
+This module contains a copy of TLD data file from Mozilla which
+is licensed under MPL 2.0. Therefore, this module is also license
+under MPL 2.0.
+
+        This Source Code Form is subject to the
+        terms of the Mozilla Public License, v.
+        2.0. If a copy of the MPL was not
+        distributed with this file, You can obtain
+        one at http://mozilla.org/MPL/2.0/.
