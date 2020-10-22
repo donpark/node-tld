@@ -18,7 +18,7 @@
   
 ### Hot update TLD data ###
 
-Recent copy of TLD data is bundled within `node-tld` and loaded automatically on first call to `registered`. But if you want to hot update from an URL, following code will download TLD data from `node-tld`'s defaut TLD data source and, if parsed successfully, update in-memory TLD data cache. If `path` is provided, raw TLD data will also be saved to the location.
+Recent copy of TLD data is bundled within `node-tld` and loaded automatically on first call to `registered`. But if you want to hot update from an URL, following code will download TLD data from `node-tld`'s default TLD data source and, if parsed successfully, update in-memory TLD data cache. If `path` is provided, raw TLD data will also be saved to the location.
 
     var tld = require('tld');
     tld.download(
